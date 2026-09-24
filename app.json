@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Nemischa 0 dan",
+    "slug": "nemischa-nol-dan",
+    "version": "2.3.0",
+    "icon": "./assets/images/app-icon.png",
+    "orientation": "portrait",
+    "scheme": "nemischa",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-router",
+      "expo-image",
+      "expo-sqlite"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "uz.nemischa.noldan"
+    },
+    "android": {
+      "package": "uz.nemischa.noldan",
+      "versionCode": 5,
+      "icon": "./assets/images/app-icon.png",
+      "predictiveBackGestureEnabled": true
+    },
+    "web": {
+      "output": "static"
+    },
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
