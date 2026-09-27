@@ -24,4 +24,32 @@ npm run start
 ```
 
 Terminaldagi QR kodni Expo Go orqali skanerlang yoki `w` tugmasi bilan web versiyasini oching.
+
+## MacBook’da ishlatish
+
+### Eng oson usul
+
+Loyiha papkasidagi `MacBook-da-ochish.command` faylini Finder’da ikki marta bosing.
+Launcher tayyor web buildni lokal serverda ochadi va Safari (yoki standart brauzer)ni
+avtomatik ishga tushiradi. Ovoz chiqarish, progress va sevimlilar MacBook’da ham ishlaydi;
+ma’lumotlar brauzerning lokal xotirasida saqlanadi.
+
+macOS faylni birinchi marta ochishni bloklasa, fayl ustiga o‘ng tugma bosing va
+**Open → Open** ni tanlang. Ilovani to‘xtatish uchun ochilgan Terminal oynasida
+`Control + C` ni bosing.
+
+### Dasturchi rejimi
+
+Node.js 20.19+ o‘rnatilgan bo‘lsa:
+
+```bash
+npm install
+npm run mac
+```
+
+Statik Mac/web versiyasini qayta yig‘ish:
+
+```bash
+npm run build:web
+```
 # germaniya
